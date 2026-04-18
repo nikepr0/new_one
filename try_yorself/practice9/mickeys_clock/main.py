@@ -1,5 +1,6 @@
 import pygame
 import os
+import time
 
 _image_library = {}
 def get_image(path):
@@ -12,6 +13,8 @@ def get_image(path):
         return image
 
 pygame.init()
+pygame.mixer.music.load('clock.mp3')
+pygame.mixer.music.play(-1)
 screen = pygame.display.set_mode((900, 500))
 surface=pygame.Surface((800, 400))
 image= pygame.image.load('mickeyclock.jpeg')
