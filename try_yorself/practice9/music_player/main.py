@@ -13,19 +13,19 @@ while d:
             
         if event.type==pp.QUIT:
             d=False
-        if event.type==event.type == pp.KEYDOWN and event.key == pp.K_s:
+        if event.type == pp.KEYDOWN and event.key == pp.K_s:
             pp.mixer.music.stop()
-        if event.type==event.type == pp.KEYDOWN and event.key == pp.K_p:
+        if event.type == pp.KEYDOWN and event.key == pp.K_p:
             pp.mixer.music.play()
-        if event.type==event.type == pp.KEYDOWN and event.key == pp.K_n:
+        if event.type == pp.KEYDOWN and event.key == pp.K_n:
             s = (s + 1) % len(m)      
             pp.mixer.music.load(m[s])
             pp.mixer.music.play()
-        if event.type==event.type == pp.KEYDOWN and event.key == pp.K_b:
+        if event.type == pp.KEYDOWN and event.key == pp.K_b:
                 s = (s - 1) % len(m)      
                 pp.mixer.music.load(m[s])
                 pp.mixer.music.play()
-        if event.type==event.type == pp.KEYDOWN and event.key == pp.K_q:
+        if event.type == pp.KEYDOWN and event.key == pp.K_q:
             d=False
             
         pp.display.flip()
