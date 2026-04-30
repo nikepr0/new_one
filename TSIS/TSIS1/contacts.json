@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Ivan Ivanov",
+    "email": "ivan@gmail.com",
+    "birthday": "2000-01-01",
+    "phones": [{"phone": "87771112233", "type": "mobile"}]
+  }
+]
