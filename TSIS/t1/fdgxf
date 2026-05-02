@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Alice",
+        "email": "alice@email.com",
+        "birthday": "1990-05-15",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "555-1234",
+                "type": "home"
+            },
+            {
+                "phone": "555-5678",
+                "type": "work"
+            }
+        ]
+    }
+]
